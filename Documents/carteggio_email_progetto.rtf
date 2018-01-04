@@ -1,0 +1,220 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 AppleColorEmoji;\f2\fnil\fcharset0 HelveticaNeue;
+}
+{\colortbl;\red255\green255\blue255;\red56\green110\blue255;\red38\green38\blue38;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww19500\viewh19480\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs28 \cf0 \expnd0\expndtw0\kerning0
+Ciao Matteo,\
+il link \'e8 sempre\'a0{\field{\*\fldinst{HYPERLINK "https://invis.io/U4CQISJEA#/245333806_01"}}{\fldrslt \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 https://invis.io/U4CQISJEA#/245333806_01}}\
+Di base \'e8 una web app responsive (devo pensare alle modifiche per Desktop ma saranno adattamenti)\
+che serve a prendere appuntamenti dall\'92avvocato.\
+\
+Abbiamo 3 aree/funzionalit\'e0 principali:\
+\
+- 
+\b \expnd0\expndtw0\kerning0
+Make a booking
+\b0 \expnd0\expndtw0\kerning0
+\
+\
+1. Selezione Retainer/Non Retainer\'a0\
+2. Calendario con visibilit\'e0 orari disponibili nei 7-10 gg successivi con scroll verticale (merc-giov sono ad esempio pieni)\
+3. Dopo aver selezionato il giorno, Selezioni la durata\
+4. A questo punto hai gli orari disponibili per quella durata\
+5. Poi Selezione della natura del Booking\
+6. Chide un Testo e un file se vuoi\
+7. Riepilogo e inserimento Email\
+8. Se primo utilizzo il sistema chieder\'e0 i dati per completare il Profilo\
+\
+Qui c\'92\'e8 una debolezza nella UX - voluta da loro - che devo accertare\'85 Non vogliono LOGIN, ma se come ci arrivi all\'92elenco booking senza inserire user/pwd? E poi solo l\'92email non funziona perch\'e9 io potrei inserire quella di chiunque e vedere i bookings\'85\'a0\
+\
+Ad ogni modo un\'92area utenti \'e8 necessaria.\
+\
+- 
+\b \expnd0\expndtw0\kerning0
+Your Bookings
+\b0 \expnd0\expndtw0\kerning0
+\
+\
+Puoi trovare tutti i Bookings futuri, in review, completati\
+\
+Per quelli futuri puoi Inviare un Feedback, cambiare data, cancellare\
+Per quelli in review puoi solo inviare un feedback\
+\
+- 
+\b \expnd0\expndtw0\kerning0
+Il Profilo
+\b0 \expnd0\expndtw0\kerning0
+ avr\'e0 le info classiche e sicuramente il cambio password\
+\
+\
+Io completo il design con dettagli e versione Desktop.\
+\
+Il preventivo mi servirebbe per Il CMS e HTML, serviranno transizioni classiche del mobile ma nulla di particolare.\
+\
+Fammi sapere se tutto chiaro ok?\
+Dai facciamolo insieme sto lavoro su. Ti sembra complesso?\
+\
+Grazie!!\
+\
+\
+Ciao Matteo,\
+alla fine loro usano\'a0{\field{\*\fldinst{HYPERLINK "https://www.vcita.com/"}}{\fldrslt \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 https://www.vcita.com/}}\'a0per gestire gli appuntamenti e hanno le loro Api quindi penso che la parte di calendario sia semplificata.\
+\
+Devo presentare un doc pi\'f9 preciso con le implementazioni e il riferimento al design (faccio io ovviamente)\
+- Vorrebbero suddividere il progetto in Milestones per controllare meglio e pagheranno ad ogni milestones raggiunta.\
+\'a0 Ci sta ma bisogna individuare queste \'93fasi\'94 del progetto \'97 Mi aiuti a suddividerlo?\'a0\
+- Ovviamente i tempi per ogni fase (giorni lavorativi e giorni solari per la consegna)\
+- Le tecnologie utilizzate\
+- Sicurezza/Hosting (SSL, penetration test??) \'97> Sono avvocati quindi rompono er cazz ma tanto dir\'f2 che se vogliono livello di sicurezza particolare pagheranno in pi\'f9, per me una volta che prendi server tosto e SSL sei ok.\'a0\
+- Se esistono licenze particolari da dover comprare/attivare\
+- Git come Code repository\
+\
+Heil\'e0. Mi hanno chiesto di mettere gi\'f9 un documento pi\'f9 preciso. Buon segno! Vorrebbero avere delle milestones (quanto rompono il cazzo alcuni ahhaha) chiare e al raggiungimento pagano le tranches decise. Sono proprio avvocati 
+\f1 \expnd0\expndtw0\kerning0
+\uc0\u55357 \u56834 
+\f0 \expnd0\expndtw0\kerning0
+ in agenzia come ti ho detto ho parlato di 7-8 k dollari australiani (5k euro circa) per tutto compreso html cos\'ec loro riescono ad avere fee interessante. \
+\
+\
+\
+\
+\pard\pardeftab720
+\cf0 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720
+
+\f2\b \cf3 \expnd0\expndtw0\kerning0
+Premise:
+\b0 \expnd0\expndtw0\kerning0
+\
+We will divide the project build in 6 \'93dynamic\'94 phases, that we have outlined below. However, keep in mind that during the developement we may come across processes or tasks that may need to be done in different phases to the ones tentatively outlined below. This will help us keep on track with the overall delivery timeline of the project.\
+\
+
+\b \expnd0\expndtw0\kerning0
+Preview
+\b0 \expnd0\expndtw0\kerning0
+\
+The GS WebApp will be a Single-Page Application (SPA), - basically a Web App that loads a single HTMLpage and dynamically updates that page as the user interacts with the App. SPAs use AJAX and HTML5 to create fluid and responsive Web Apps, without constant page reloads.\
+We will implement VUEJS to make the App and the backoffice lighter and faster.\
+\
+Breakdown of Phases:\
+\
+
+\b \expnd0\expndtw0\kerning0
+PHASE 1: Project setup
+\b0 \expnd0\expndtw0\kerning0
+\
+-Single page web Application architecture (data flows between backoffice-Frontend-VCita)\
+-Git repo setup\
+-Hosting setup\
+-Database setup\
+-VCita API documentation analisys\
+\
+
+\b \expnd0\expndtw0\kerning0
+PHASE\'a02: HTML Prototyping\'a0Frontend UX
+\b0 \expnd0\expndtw0\kerning0
+\
+-Up to 3 pages with a basic navigation\
+-Test all the code libraries involved without any dynamic functionality (e.g. Login)\
+\
+
+\b \expnd0\expndtw0\kerning0
+PHASE\'a03:\'a0Main functionalities\'92\'a0implementation
+\b0 \expnd0\expndtw0\kerning0
+\
+
+\b \expnd0\expndtw0\kerning0
+Frontend UX
+\b0 \expnd0\expndtw0\kerning0
+\
+-Login\
+-Book an Appointment with Standard Calendar UI\
+
+\b \expnd0\expndtw0\kerning0
+Backend UX
+\b0 \expnd0\expndtw0\kerning0
+\
+-User Registration sending Email login info\
+-View Bookings\
+\
+
+\b \expnd0\expndtw0\kerning0
+PHASE\'a04:\'a0Complete all functionalities
+\b0 \expnd0\expndtw0\kerning0
+\
+
+\b \expnd0\expndtw0\kerning0
+Frontend UX
+\b0 \expnd0\expndtw0\kerning0
+\
+-Login\
+-Book an Appointment with enhanced Calendar UI (final version)\
+-Creation of a .cal file users will receive across email\
+-View/Edit/Delete Bookings\
+-View/Edit User Profile, password as well\
+-Start working on the Fully-Responsiveness\
+
+\b \expnd0\expndtw0\kerning0
+Backend UX
+\b0 \expnd0\expndtw0\kerning0
+\
+-User Registration sending Email login info\
+-Book an Appointment for a client\
+-View/Edit/Delete Bookings\
+-View/Edit User Profiles\
+-View Calendar with all the bookings (sync with VCITA)\
+\
+
+\b \expnd0\expndtw0\kerning0
+PHASE\'a05: Bug-fixing & Security check
+\b0 \expnd0\expndtw0\kerning0
+\
+-Test through different Browsers (Desktop/mobile devices)\
+-Front&Back end work under SSL connection even during VCita communications\
+\
+
+\b \expnd0\expndtw0\kerning0
+PHASE\'a06: Online release
+\b0 \expnd0\expndtw0\kerning0
+\
+\
+
+\b \expnd0\expndtw0\kerning0
+Timeframe:
+\b0 \expnd0\expndtw0\kerning0
+\
+Overall time frame is: 50 days from approval of project costs. (alla fine 2 mesi stimati ma ho gi\'e0 detto che dipende dalla velocit\'e0 con cui danno feedback)\
+\
+
+\b \expnd0\expndtw0\kerning0
+Warranty
+\b0 \expnd0\expndtw0\kerning0
+\
+60 days (excluding bugs due to VCita / Third-party software)\
+\
+
+\b \expnd0\expndtw0\kerning0
+Technologies\'a0\expnd0\expndtw0\kerning0
+\ul Implemented for the entire project
+\b0 \expnd0\expndtw0\kerning0
+\ulnone \
+VUEJS\
+PHP\
+MYSQL\
+HTML\
+CSS\
+JS\
+\
+
+\b \expnd0\expndtw0\kerning0
+Webapp Compatible browsers
+\b0 \expnd0\expndtw0\kerning0
+\
+IE11, Firefox, Safari, Opera, Chrome, Edge}
